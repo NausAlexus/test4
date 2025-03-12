@@ -348,7 +348,7 @@ body::-webkit-scrollbar-track {
     margin: 0 auto;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 80px;
+    margin-top: 100px;
     margin-bottom: 20px;
 }
 
@@ -425,7 +425,7 @@ body::-webkit-scrollbar-track {
     margin: 0 auto;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 80px;
+    margin-top: 100px;
     margin-bottom: 20px;
 }
 
@@ -509,7 +509,7 @@ body::-webkit-scrollbar-track {
     margin: 0 auto;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 80px;
+    margin-top: 100px;
     margin-bottom: 20px;
 }
 
@@ -1109,6 +1109,318 @@ body::-webkit-scrollbar-track {
 .story-link:hover {
     background: #f4f4f9;
 }
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    padding: 20px;
+}
+
+.hero-card {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-content {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.hero-title {
+    font-size: 2.5em;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    margin: 20px 0;
+    font-size: 1.2em;
+    color: rgb(114, 114, 114);
+}
+
+.hero-button {
+    align-self: flex-start;
+    padding: 12px 20px;
+    border: none;
+    background-color: #194791;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        height: 900px;
+    }
+    .hero-card {
+        flex-direction: column;
+    }
+
+    .hero-image,
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-content {
+        padding: 20px;
+    }
+
+    .hero-title {
+        font-size: 2em;
+        max-width: 300px;
+    }
+
+    .hero-description {
+        font-size: 1em;
+    }
+}
+
+.reviews-home-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.reviews-home-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.reviews-home-slider {
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+}
+
+.reviews-home-slide {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.reviews-home-slide.reviews-home-active {
+    opacity: 1;
+}
+
+.review-image {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.reviewer-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.review-text {
+    font-size: 1.2em;
+    line-height: 1.5;
+    padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+    .reviews-title {
+        font-size: 1.5em;
+    }
+
+    .review-text {
+        font-size: 1em;
+    }
+
+    .review-image {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+.EpicLeague-description {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.EpicLeague-title {
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.EpicLeague-intro,
+.EpicLeague-details {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #a2a2a2;
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .EpicLeague-title {
+        font-size: 1.5em;
+    }
+
+    .EpicLeague-intro,
+    .EpicLeague-details {
+        font-size: 1em;
+    }
+}
+
+.mini-about-us {
+    padding: 20px;
+    text-align: center;
+}
+
+.mini-about-cards-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+
+.mini-about-card {
+    flex: 1 1 22%;
+    margin: 10px; 
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 10px 10px 29px 0px rgba(0,0,0,0.52);
+    -webkit-box-shadow: 10px 10px 29px 0px rgba(0,0,0,0.52);
+    -moz-box-shadow: 10px 10px 29px 0px rgba(0,0,0,0.52);
+    padding: 15px;
+}
+
+.mini-about-card-image {
+    width: 100%; 
+    height: auto;
+    border-radius: 8px;
+}
+
+.mini-about-card-title {
+    font-size: 1em;
+    margin: 10px 0;
+    color: black;
+}
+
+.mini-about-card-text {
+    font-size: 0.8em;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.mini-about-learn-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .mini-about-card {
+        flex: 1 1 100%;
+    }
+}
+
+.production-section {
+    padding: 40px 20px;
+    text-align: center;
+    color: #194791;
+    background-color: white;
+}
+
+.section-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.left-block, .right-block {
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.center-block {
+    flex: 1;
+    max-width: 320px; 
+    margin: 10px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    font-size: 3em;
+}
+
+.service {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.icon {
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+.production-btn {
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 6px 8px;
+    color: black;
+    transition: background-color 0.3s ease,
+                color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-block, .right-block, .center-block {
+        max-width: 100%;
+    }
+
+}
 
 
 
@@ -1636,6 +1948,82 @@ body::-webkit-scrollbar-track {
 
 
 
+.advantages-section {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px 120px;
+    margin-top: 40px;
+}
+
+.advantages-title {
+    text-align: center;
+    font-size: 38px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.advantage-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.advantage-image {
+    width: 50%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.advantage-text {
+    width: 50%;
+    padding: 0 20px;
+}
+
+.advantage-subtitle {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.advantage-description {
+    font-size: 16px;
+    color: #afafaf;
+}
+
+.btn-vacancies {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+@media (max-width: 768px) {
+    .advantages-section {
+        padding: 40px 20px;
+    }
+    .advantage-block {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .advantage-image {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .advantage-text {
+        width: 100%;
+        padding: 0;
+    }
+
+    .revers-text {
+        flex-direction: column-reverse;
+    }
+}
+
 
 
 
@@ -1666,5 +2054,19 @@ body::-webkit-scrollbar-track {
     .booking-link:hover,
     .card-link:hover {
         border: 3px solid #000000;
+    }
+}
+    .hero-button:hover {
+        background-color: #000000;
+    }
+    .mini-about-learn-more-button:hover {
+        background-color: #b8e74a;
+    }
+    .mini-about-learn-more-button:hover {
+        background-color: #000000;
+        color: #ffffff;
+    }
+    .btn-vacancies:hover {
+        background-color: #000000; 
     }
 }
