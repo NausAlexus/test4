@@ -936,6 +936,204 @@ body::-webkit-scrollbar-track {
     margin-bottom: 10px;
 }
 
+.blog-intro {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff;
+}
+
+.blog-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.blog-description {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.posts-container, .topics-container, .insights-container, .stories-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.post-card, .topic-card, .insight-card, .story-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 100%;
+    position: relative;
+}
+
+.post-card:hover, .topic-card:hover, .insight-card:hover, .story-card:hover {
+    transform: translateY(-10px);
+}
+
+.post-image, .insight-image, .story-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.post-title, .topic-title, .insight-title, .story-title {
+    font-size: 1.5rem;
+    margin: 20px 20px 10px;
+    color: #1e3c72;
+}
+
+.post-excerpt, .topic-description, .insight-text, .story-text {
+    font-size: 1rem;
+    margin: 0 20px 20px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.post-link, .insight-link, .story-link {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background: #1e3c72;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.post-link:hover, .insight-link:hover, .story-link:hover {
+    background: #2a5298;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.newsletter-input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.newsletter-button {
+    padding: 10px 20px;
+    background: #1e3c72;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.newsletter-button:hover {
+    background: #2a5298;
+}
+
+/* Секция Expert Insights */
+.expert-insights {
+    background: #fff;
+    padding: 60px 20px;
+}
+
+.insight-card {
+    width: 300px;
+    text-align: center;
+}
+
+.insight-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+}
+
+.insight-text {
+    font-style: italic;
+    color: #555;
+}
+
+/* Секция User Stories */
+.user-stories {
+    background: #1c499b;
+    padding: 60px 20px;
+    color: #fff;
+}
+
+.story-card {
+    width: 300px;
+    text-align: left;
+    position: relative;
+}
+
+.story-image {
+    border-radius: 10px 10px 0 0;
+}
+
+.story-title {
+    color: #fff;
+}
+
+.story-text {
+    color: #2c2b2b;
+}
+
+.story-link {
+    background: #fff;
+    color: #1e3c72;
+}
+
+.story-link:hover {
+    background: #f4f4f9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 1025px) {
     .header-link:hover,
     .footer-brand:hover {
