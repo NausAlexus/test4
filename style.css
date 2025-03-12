@@ -342,6 +342,361 @@ body::-webkit-scrollbar-track {
     }
 }
 
+.cookies-policy {
+    padding: 20px; 
+    background-color: #fff; 
+    color: #333; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.cookies-title {
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+}
+
+.cookies-updated {
+    font-size: 14px; 
+    color: #888; 
+    margin-bottom: 20px;
+}
+
+.cookies-intro,
+.cookies-no-sensitive-info,
+.cookies-options-warning {
+    margin-bottom: 15px;
+}
+
+.cookies-interpretation-title,
+.cookies-use-title,
+.cookies-choices-title,
+.cookies-help-title {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #073f6a; /* используйте ваш цвет заголовка */
+}
+
+.cookies-definition {
+    margin-bottom: 10px;
+}
+
+.cookies-type-title,
+.cookies-necessary-title,
+.cookies-functionality-title {
+    font-size: 18px; 
+    margin-top: 20px; 
+}
+
+.cookies-contact-info {
+    margin-top: 10px;
+}
+
+.cookies-contact-email-link {
+    color: #073f6a; 
+    text-decoration: none;
+}
+
+.cookies-contact-email-link:hover {
+    text-decoration: underline;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .cookies-policy {
+        padding: 15px; 
+    }
+    .cookies-title {
+        font-size: 20px; 
+    }
+    .cookies-updated {
+        font-size: 12px; 
+    }
+}
+
+.privacy-policy {
+    padding: 20px; 
+    background-color: #fff; 
+    color: #333; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.privacy-title {
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+}
+
+.privacy-updated {
+    font-size: 14px; 
+    color: #888; 
+    margin-bottom: 20px;
+}
+
+.privacy-intro {
+    margin-bottom: 15px;
+}
+
+.privacy-interpretation-title,
+.privacy-collection-title,
+.privacy-usage-title,
+.privacy-retention-title,
+.privacy-transfer-title,
+.privacy-deletion-title,
+.privacy-disclosure-title,
+.privacy-security-title,
+.privacy-children-title,
+.privacy-links-title,
+.privacy-changes-title,
+.privacy-contact-title {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #073f6a; /* use your header color */
+}
+
+.privacy-definition,
+.privacy-types-title,
+.privacy-personal-data-title,
+.privacy-usage-data-title,
+.privacy-tracking-title,
+.privacy-disclosure-title {
+    margin-bottom: 10px;
+}
+
+.privacy-personal-data-list,
+.privacy-tracking-list,
+.privacy-usage-list,
+.privacy-definitions-list {
+    margin-left: 20px;
+}
+
+.privacy-contact-email-link {
+    color: #073f6a; 
+    text-decoration: none;
+}
+
+.privacy-contact-email-link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .privacy-policy {
+        padding: 15px; 
+    }
+    .privacy-title {
+        font-size: 20px; 
+    }
+    .privacy-updated {
+        font-size: 12px; 
+    }
+}
+
+.terms-conditions {
+    padding: 20px; 
+    background-color: #fff; 
+    color: #333; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.terms-title {
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+}
+
+.terms-updated {
+    font-size: 14px; 
+    color: #888; 
+    margin-bottom: 20px;
+}
+
+.terms-intro {
+    margin-bottom: 15px;
+}
+
+.terms-interpretation-title,
+.terms-acknowledgment-title,
+.terms-links-title,
+.terms-termination-title,
+.terms-liability-title,
+.terms-disclaimer-title,
+.terms-governing-law-title,
+.terms-dispute-resolution-title,
+.terms-eu-users-title,
+.terms-us-compliance-title,
+.terms-severability-waiver-title,
+.terms-translation-title,
+.terms-changes-title,
+.terms-contact-title {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #073f6a; /* Adjust your header color */
+}
+
+.terms-interpretation,
+.terms-definitions-title,
+.terms-acknowledgment-description {
+    margin-bottom: 10px;
+}
+
+.terms-definitions-list,
+.terms-links-description,
+.terms-termination-description,
+.terms-liability-description,
+.terms-disclaimer-description,
+.terms-governing-law-description,
+.terms-dispute-resolution-description,
+.terms-eu-users-description,
+.terms-us-compliance-description,
+.terms-severability-description,
+.terms-waiver-description,
+.terms-translation-description,
+.terms-changes-description,
+.terms-contact-description {
+    margin-left: 20px;
+}
+
+.terms-contact-email,
+.terms-contact-phone {
+    color: #073f6a; 
+    text-decoration: none;
+}
+
+.terms-contact-email:hover,
+.terms-contact-phone:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .terms-conditions {
+        padding: 15px; 
+    }
+    .terms-title {
+        font-size: 20px; 
+    }
+    .terms-updated {
+        font-size: 12px; 
+    }
+}
+
+.parallax-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.parallax-bg {
+    background-image: url('img/hero-bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+    text-align: center;
+    padding: 80px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    margin: 0 auto;
+    max-width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.scroll-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.arrow {
+    width: 30px;
+    height: 30px;
+    border: solid #ffffff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0) rotate(45deg);
+    }
+    50% {
+        transform: translateY(-6px) rotate(45deg);
+    }
+}
+
+.custom-fentesi-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.fentesi-section-title {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.fentesi-section-line {
+    width: 60%;
+    border: 1px solid #ffffff;
+    margin: 0 auto 20px;
+}
+
+.fentesi-section-description {
+    font-size: 1.2rem;
+    color: #999999;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .fentesi-section-title {
+        font-size: 2rem;
+    }
+
+    .fentesi-section-description {
+        font-size: 1rem; 
+    }
+}
+
+
+
+
+
 
 
 
