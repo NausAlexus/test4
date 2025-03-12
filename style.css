@@ -1498,30 +1498,19 @@ body::-webkit-scrollbar-track {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.sugar-canvas {
+.EpicLeague-canvas {
     padding: 20px;
     text-align: center;
     margin-top: 80px;
 }
 
-.sugar-canvas__title {
+.EpicLeague-canvas__title {
     font-size: 2em;
     margin-bottom: 20px;
     color: #ffffff;
 }
 
-.sugar-canvas__card {
+.EpicLeague-canvas__card {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1533,79 +1522,68 @@ body::-webkit-scrollbar-track {
     margin: 0 auto;
 }
 
-.sugar-canvas__photo {
+.EpicLeague-canvas__photo {
     flex: 1;
 }
 
-.sugar-canvas__photo img {
+.EpicLeague-canvas__photo img {
     width: 100%;
     height: auto;
 }
 
-.sugar-canvas__info {
+.EpicLeague-canvas__info {
     flex: 1;
     padding: 20px;
 }
 
-.sugar-canvas__director {
+.EpicLeague-canvas__director {
     font-size: 1.5em;
     margin-bottom: 10px;
     color: #ffffff;
 }
 
-.sugar-canvas__description {
+.EpicLeague-canvas__description {
     font-size: 1em;
     line-height: 1.5;
     color: #b6b6b6;
 }
 
 @media (max-width: 768px) {
-    .sugar-canvas__card {
+    .EpicLeague-canvas__card {
         flex-direction: column;
     }
 
-    .sugar-canvas__info {
+    .EpicLeague-canvas__info {
         padding: 10px;
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-.delivery-section {
+.how-work-section {
     text-align: center;
     margin-bottom: 40px;
+    padding: 20px;
 }
 
-.delivery-section h1 {
+.how-work-section h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
     color: #343a40;
 }
 
-.delivery-section p {
+.how-work-section p {
     font-size: 1.1em;
     max-width: 800px;
     margin: 0 auto 40px;
     color: #495057;
 }
 
-.delivery-cards {
+.how-work-cards {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.delivery-card {
+.how-work-card {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1618,74 +1596,64 @@ body::-webkit-scrollbar-track {
     padding: 20px;
 }
 
-.delivery-card:hover {
+.how-work-card:hover {
     transform: scale(1.02);
 }
 
-.delivery-card img {
+.how-work-card img {
     width: 40%;
     height: auto;
     border-radius: 5px;
 }
 
-.delivery-card h3 {
+.how-work-card h3 {
     font-size: 1.5em;
     margin: 0 15px 10px;
     color: #343a40;
     flex: 1;
 }
 
-.delivery-card p {
+.how-work-card p {
     font-size: 1em;
     color: #495057;
     flex: 1;
 }
 
-.delivery-card__btn {
+.how-work-card__btn {
+    font-weight: 900;
     display: inline-block;
     margin-top: 15px;
-    padding: 10px 20px;
-    background-color: #a6ff00;
-    color: #34495e;
+    padding: 20px 20px;
+    background-color: #ffffff;
+    color: #194791;
     text-decoration: none;
-    border-radius: 10px;
     transition: background-color 0.3s ease,
                 color 0.3s ease;
 }
 
 @media (max-width: 768px) {
-    .delivery-card {
+    .how-work-card {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .delivery-card img {
+    .how-work-card img {
         width: 100%;
         margin-bottom: 15px;
     }
 
-    .delivery-section h1 {
+    .how-work-section h1 {
         font-size: 2em;
     }
 
-    .delivery-section p {
+    .how-work-section p {
         font-size: 1em;
     }
 
-    .delivery-card h3 {
+    .how-work-card h3 {
         font-size: 1.3em;
     }
 }
-
-
-
-
-
-
-
-
-
-
 
 
 @media (min-width: 1025px) {
@@ -1720,5 +1688,9 @@ body::-webkit-scrollbar-track {
     }
     .btn-vacancies:hover {
         background-color: #000000; 
+    }
+    .how-work-card__btn:hover {
+        background-color: #000000;
+        color: #ffffff;
     }
 }
