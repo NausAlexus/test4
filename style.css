@@ -1114,6 +1114,519 @@ body::-webkit-scrollbar-track {
 
 
 
+.app-intro {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.app-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.app-description {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.app-download-buttons {
+    margin-top: 30px;
+}
+
+.app-download-buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    background: #fff;
+    color: #1e3c72;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.app-download-buttons a:hover {
+    background: #2a5298;
+    color: #fff;
+}
+
+/* Секция 2: Преимущества приложения */
+.app-features {
+    padding: 60px 20px;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.features-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.feature-card {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    color: #1e3c72;
+    margin-bottom: 20px;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #1e3c72;
+}
+
+.feature-description {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Секция 3: Скриншоты приложения */
+.app-screenshots {
+    padding: 60px 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.screenshots-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    align-items: center;
+}
+
+.screenshot {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.screenshot:hover {
+    transform: scale(1.05);
+}
+
+/* Секция 4: Отзывы пользователей */
+.app-reviews {
+    padding: 60px 20px;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reviews-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.review-card {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-10px);
+}
+
+.review-icon {
+    font-size: 2.5rem;
+    color: #1e3c72;
+    margin-bottom: 20px;
+}
+
+.review-text {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.review-author {
+    font-size: 1rem;
+    color: #1e3c72;
+    font-weight: bold;
+}
+
+/* Секция 5: Как начать использовать приложение */
+.app-get-started {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.get-started-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.step-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.step-card:hover {
+    transform: translateY(-10px);
+}
+
+.step-icon {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.step-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.step-description {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Секция 6: Часто задаваемые вопросы */
+.app-faq {
+    padding: 60px 20px;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-question {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #1e3c72;
+    margin-bottom: 10px;
+}
+
+.faq-answer {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Адаптация для мобильных устройств */
+@media (max-width: 768px) {
+    .app-title {
+        font-size: 2rem;
+    }
+
+    .feature-card, .review-card, .step-card {
+        width: 100%;
+    }
+
+    .screenshot {
+        width: 100%;
+    }
+}
+
+.faq-section {
+    padding: 60px 20px;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-section .wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-section .section-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #1e3c72;
+}
+
+.faq-accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.faq-item {
+    background: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.faq-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-question {
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #1e3c72;
+    background: #f9f9f9;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.3s ease;
+}
+
+.faq-question:hover {
+    background: #e0e0e0;
+}
+
+.faq-question::after {
+    content: "+";
+    font-size: 1.5rem;
+    color: #1e3c72;
+}
+
+.faq-question.active::after {
+    content: "-";
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0 20px;
+}
+
+.faq-answer p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.faq-item.active .faq-answer {
+    max-height: 200px; /* Adjust based on content */
+}
+
+
+
+    /* Стили для секции Meet the Team */
+    .meet-the-team {
+        padding: 80px 20px;
+        background: #f4f4f9;
+        border-radius: 10px;
+        margin-bottom: 40px;
+    }
+
+    .meet-the-team .section-title {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: #1e3c72;
+    }
+
+    .meet-the-team .section-description {
+        text-align: center;
+        font-size: 1.2rem;
+        color: #666;
+        max-width: 800px;
+        margin: 0 auto 40px;
+        line-height: 1.6;
+    }
+
+    .team-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .team-card {
+        background: #fff;
+        border-radius: 15px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .team-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .team-image-wrapper {
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .team-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+
+    .team-card:hover .team-image {
+        transform: scale(1.1);
+    }
+
+    .team-info {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .team-name {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        color: #1e3c72;
+    }
+
+    .team-role {
+        font-size: 1.1rem;
+        color: #666;
+        margin-bottom: 15px;
+    }
+
+    .team-bio {
+        font-size: 1rem;
+        color: #666;
+        line-height: 1.6;
+    }
+
+    /* Адаптация для мобильных устройств */
+    @media (max-width: 768px) {
+        .team-card {
+            width: 100%;
+        }
+
+        .team-image-wrapper {
+            height: 250px;
+        }
+    }
+
+
+    .get-started {
+        background-color: #fff; /* Белый фон для большей чистоты */
+        border: 2px solid #3498db; /* Граница синего цвета */
+        border-radius: 12px; /* Закругление углов */
+        padding: 40px; /* Отступы внутри секции */
+        max-width: 80%; /* Максимальная ширина секции */
+        margin: auto; /* Центрирование секции */
+        margin-bottom: 30px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.1); /* Тень для создания объема */
+
+    }
+    
+    .title {
+        font-size: 2.2em; /* Размер заголовка */
+        color: #3498db; /* Цвет заголовка */
+        text-align: center; /* Центрируем заголовок */
+        margin-bottom: 30px; /* Отступ снизу */
+    }
+    
+    .steps {
+        display: flex; /* Используем flexbox для распределения шагов */
+        justify-content: space-between; /* Промежутки между элементами */
+        flex-direction: column; /* Вертикальное направление для колонок */
+    }
+    
+    .step-item {
+        display: flex; /* Используем flexbox для расположения внутри шага */
+        align-items: center; /* Центрируем вертикально содержимое */
+        margin-bottom: 20px; /* Отступ между шагами */
+        padding: 15px; /* Внутренние отступы */
+        background-color: #e7f1ff; /* Светлый фон шага */
+        border-radius: 8px; /* Скругление углов */
+        transition: background-color 0.3s; /* Плавный эффект изменения цвета */
+    }
+    
+    .step-item:hover {
+        background-color: #d5ebff; /* Изменение цвета фона при наведении */
+    }
+    
+    .step-number {
+        font-size: 2.5em; /* Размер номера шага */
+        font-weight: bold; /* Жирный шрифт */
+        margin-right: 15px; /* Отступ справа */
+        color: #3498db; /* Цвет номера шага */
+    }
+    
+    .step-details {
+        flex-grow: 1; /* Позволяем этому блоку занимать доступное пространство */
+    }
+    
+    .step-icon {
+        font-size: 2.5em; /* Размер иконки */
+        color: #3498db; /* Цвет иконки */
+        margin-bottom: 10px; /* Отступ снизу */
+    }
+    
+    .step-heading {
+        font-size: 1.5em; /* Размер заголовка шага */
+        margin: 5px 0; /* Вертикальные отступы */
+        color: black;
+    }
+    
+    .step-description {
+        font-size: 1em; /* Размер текста описания */
+        color: #666; /* Цвет текста описания */
+    }
+
+    @media (max-width:500px) {
+        .get-started{
+            max-width: 100%;
+        }
+        .faq-answer p{
+            font-size: 0.8rem
+        }
+        
+    }
+
+
 
 
 
