@@ -1,11 +1,11 @@
 let currentIndex = 0;
-const slides = document.querySelectorAll('.reviews-slide');
+const slides = document.querySelectorAll('.reviews-home-slide');
 
 function showSlide(index) {
     slides.forEach((slide, i) => {
-        slide.classList.remove('reviews-active');
+        slide.classList.remove('reviews-home-active');
         if (i === index) {
-            slide.classList.add('reviews-active');
+            slide.classList.add('reviews-home-active');
         }
     });
 }

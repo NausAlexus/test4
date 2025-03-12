@@ -891,23 +891,23 @@ body::-webkit-scrollbar-track {
     }
 }
 
-.reviews-section {
+.reviews-home-section {
     text-align: center;
     margin: 20px;
 }
 
-.reviews-title {
+.reviews-home-title {
     font-size: 2em;
     margin-bottom: 20px;
 }
 
-.reviews-slider {
+.reviews-home-slider {
     position: relative;
     overflow: hidden;
     height: 200px;
 }
 
-.reviews-slide {
+.reviews-home-slide {
     opacity: 0;
     transition: opacity 0.5s ease;
     position: absolute;
@@ -916,7 +916,7 @@ body::-webkit-scrollbar-track {
     text-align: center;
 }
 
-.reviews-slide.reviews-active {
+.reviews-home-slide.reviews-home-active {
     opacity: 1;
 }
 
