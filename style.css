@@ -1108,6 +1108,7 @@ body::-webkit-scrollbar-track {
 
 .story-link:hover {
     background: #f4f4f9;
+}
 .hero-section {
     display: flex;
     align-items: center;
