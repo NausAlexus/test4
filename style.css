@@ -2169,6 +2169,9 @@ body::-webkit-scrollbar-track {
     .how-work-card h3 {
         font-size: 1.3em;
     }
+    .review-text{
+        font-size: 0.8rem;
+    }
 }
 
 
