@@ -989,8 +989,9 @@ body::-webkit-scrollbar-track {
 
 .post-image, .insight-image, .story-image {
     width: 100%;
-    height: 300px;
+    height: 450px;
     object-fit: cover;
+    
 }
 
 .post-title, .topic-title, .insight-title, .story-title {
@@ -1816,6 +1817,7 @@ body::-webkit-scrollbar-track {
         height: 200px;
         overflow: hidden;
         position: relative;
+        
     }
 
     .team-image {
@@ -1853,13 +1855,13 @@ body::-webkit-scrollbar-track {
     }
 
     /* Адаптация для мобильных устройств */
-    @media (max-width: 768px) {
+    @media (max-width: 670px) {
         .team-card {
-            width: 100%;
+            width: 90%;
         }
 
         .team-image-wrapper {
-            height: 250px;
+            height: 400px;
         }
     }
 
