@@ -2180,6 +2180,14 @@ body::-webkit-scrollbar-track {
 }
 
 
+.tur-section-title {
+    color: black;
+    font-style: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+
 @media (min-width: 1025px) {
     .header-link:hover,
     .footer-brand:hover {
