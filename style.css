@@ -2187,6 +2187,11 @@ body::-webkit-scrollbar-track {
     text-align: center;
 }
 
+.blog-story-title {
+    color: black;
+    text-align: center;
+}
+
 
 @media (min-width: 1025px) {
     .header-link:hover,
