@@ -2147,6 +2147,13 @@ body::-webkit-scrollbar-track {
                 color 0.3s ease;
 }
 
+.blog-section-title {
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 48px;
+}
+
 @media (max-width: 768px) {
     .how-work-card {
         flex-direction: column;
